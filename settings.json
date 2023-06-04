@@ -1,0 +1,187 @@
+{
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[java]": {
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "editor.autoClosingBrackets": "never",
+  "editor.autoClosingQuotes": "never",
+  "editor.bracketPairColorization.enabled": false,
+  "editor.fontFamily": "'Cartograph CF', 'JetBrains Mono', monospace",
+  "editor.fontLigatures": "'ss04'",
+  "editor.fontSize": 17,
+  "editor.fontWeight": 400,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.suggestSelection": "first",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "files.watcherExclude": {
+    "**/.bloop": true,
+    "**/.metals": true,
+    "**/.ammonite": true
+  },
+  "git.autofetch": true,
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-1.8",
+      "path": "C:\\Program Files\\Zulu\\zulu-8"
+    },
+    {
+      "name": "JavaSE-11",
+      "path": "C:\\Program Files\\Eclipse Adoptium\\jdk-11.0.17.8-hotspot"
+    },
+    {
+      "name": "JavaSE-17",
+      "path": "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.6.10-hotspot",
+      "default": true
+    }
+  ],
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "redhat.telemetry.enabled": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.fontFamily": "'JetBrains Mono'",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Ubuntu (WSL)": {
+      "path": "C:\\Windows\\System32\\wsl.exe",
+      "args": ["-d", "Ubuntu"],
+      "icon": "terminal-bash"
+    }
+  },
+  "terminal.integrated.scrollback": 25000,
+  "update.enableWindowsBackgroundUpdates": false,
+  "update.mode": "manual",
+  "update.showReleaseNotes": false,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["a"],
+      "commands": ["editor.action.rename"]
+    },
+    {
+      "before": ["<Tab>"],
+      "commands": ["editor.action.indentLines"]
+    },
+    {
+      "before": ["<S-Tab>"],
+      "commands": ["editor.action.outdentLines"]
+    },
+    {
+      "before": ["/"],
+      "commands": ["editor.action.commentLine"]
+    },
+    {
+      "before": ["z"],
+      "commands": ["undo"]
+    },
+    {
+      "before": ["x"],
+      "commands": ["redo"]
+    },
+    {
+      "before": ["w"],
+      "commands": ["workbench.action.closeActiveEditor"]
+    },
+    {
+      "before": ["j"],
+      "commands": ["workbench.action.splitEditor"]
+    },
+    {
+      "before": ["J"],
+      "commands": ["workbench.action.focusNextGroup"]
+    },
+    {
+      "before": ["q"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    },
+    {
+      "before": ["p"],
+      "commands": ["workbench.action.togglePanel"]
+    },
+    {
+      "before": ["'"],
+      "commands": ["actions.find"]
+    },
+    {
+      "before": ["\""],
+      "commands": ["workbench.action.showCommands"]
+    }
+  ],
+  "vim.useCtrlKeys": false,
+  "vim.vimrc.enable": true,
+  "vim.vimrc.path": "$HOME/.codevimrc",
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": ["a"],
+      "commands": ["editor.action.rename"]
+    },
+    {
+      "before": ["<Tab>"],
+      "commands": ["editor.action.indentLines"]
+    },
+    {
+      "before": ["<S-Tab>"],
+      "commands": ["editor.action.outdentLines"]
+    },
+    {
+      "before": ["/"],
+      "commands": ["editor.action.commentLine"]
+    },
+    {
+      "before": ["'"],
+      "commands": ["actions.find"]
+    }
+  ],
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "window.commandCenter": true,
+  "window.newWindowDimensions": "offset",
+  "workbench.colorTheme": "Monokai Night",
+  "workbench.iconTheme": "Monokai Pro Icons",
+  "workbench.startupEditor": "none",
+  "terminal.integrated.fontSize": 12
+}
