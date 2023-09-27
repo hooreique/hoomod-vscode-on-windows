@@ -2,6 +2,9 @@
     "[cpp]": {
         "editor.defaultFormatter": "ms-vscode.cpptools"
     },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
@@ -21,8 +24,17 @@
     "[markdown]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     "[vue]": {
         "editor.defaultFormatter": "Vue.volar"
+    },
+    "[xml]": {
+        "editor.defaultFormatter": "redhat.vscode-xml"
     },
     "editor.autoClosingBrackets": "never",
     "editor.autoClosingQuotes": "never",
@@ -31,8 +43,6 @@
     "editor.fontLigatures": "'ss04'",
     "editor.fontSize": 17,
     "editor.fontWeight": 400,
-    "editor.formatOnPaste": true,
-    "editor.formatOnSave": true,
     "editor.guides.bracketPairs": "active",
     "editor.suggestSelection": "first",
     "explorer.confirmDelete": false,
@@ -72,6 +82,7 @@
     "security.workspace.trust.untrustedFiles": "open",
     "terminal.integrated.defaultProfile.windows": "PowerShell",
     "terminal.integrated.fontFamily": "'JetBrains Mono'",
+    "terminal.integrated.fontSize": 12,
     "terminal.integrated.profiles.windows": {
         "PowerShell": {
             "source": "PowerShell",
@@ -120,7 +131,7 @@
             "commands": ["undo"]
         },
         {
-            "before": ["x"],
+            "before": ["Z"],
             "commands": ["redo"]
         },
         {
@@ -134,14 +145,6 @@
         {
             "before": ["J"],
             "commands": ["workbench.action.focusNextGroup"]
-        },
-        {
-            "before": ["q"],
-            "commands": ["workbench.action.toggleSidebarVisibility"]
-        },
-        {
-            "before": ["p"],
-            "commands": ["workbench.action.togglePanel"]
         },
         {
             "before": ["'"],
@@ -183,5 +186,5 @@
     "workbench.colorTheme": "Monokai Night",
     "workbench.iconTheme": "Monokai Pro Icons",
     "workbench.startupEditor": "none",
-    "terminal.integrated.fontSize": 12
+    "xml.server.vmargs": "-Xmx256M"
 }
