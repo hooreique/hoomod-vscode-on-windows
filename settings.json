@@ -101,6 +101,34 @@
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": ["a"],
+            "commands": ["references-view.findReferences"]
+        },
+        {
+            "before": ["l"],
+            "commands": ["editor.action.formatDocument"]
+        },
+        {
+            "before": ["b"],
+            "commands": ["editor.action.revealDefinition"]
+        },
+        {
+            "before": ["B"],
+            "commands": ["editor.action.goToImplementation"]
+        },
+        {
+            "before": ["m"],
+            "commands": ["editor.action.jumpToBracket"]
+        },
+        {
+            "before": ["y"],
+            "commands": ["workbench.action.navigateBack"]
+        },
+        {
+            "before": ["Y"],
+            "commands": ["workbench.action.navigateForward"]
+        },
+        {
+            "before": ["k"],
             "commands": ["editor.action.rename"]
         },
         {
@@ -124,8 +152,16 @@
             "commands": ["redo"]
         },
         {
+            "before": ["P"],
+            "commands": ["workbench.action.showCommands"]
+        },
+        {
             "before": ["w"],
             "commands": ["workbench.action.closeActiveEditor"]
+        },
+        {
+            "before": ["W"],
+            "commands": ["workbench.action.toggleSidebarVisibility"]
         },
         {
             "before": ["j"],
@@ -149,16 +185,17 @@
         },
         {
             "before": ["\""],
-            "commands": ["workbench.action.showCommands"]
+            "commands": ["workbench.action.findInFiles"]
         }
     ],
+    "vim.timeout": 0,
     "vim.useCtrlKeys": false,
     "vim.vimrc.enable": true,
     "vim.vimrc.path": "$HOME/.codevimrc",
     "vim.visualModeKeyBindingsNonRecursive": [
         {
-            "before": ["a"],
-            "commands": ["editor.action.rename"]
+            "before": ["l"],
+            "commands": ["editor.action.formatSelection"]
         },
         {
             "before": ["<Tab>"],
@@ -175,6 +212,10 @@
         {
             "before": ["'"],
             "commands": ["actions.find"]
+        },
+        {
+            "before": ["\""],
+            "commands": ["workbench.action.findInFiles"]
         }
     ],
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
