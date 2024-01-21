@@ -24,7 +24,7 @@
         "when": "textInputFocus"
     },
     {
-        "key": "ctrl+shift+down shift",
+        "key": "ctrl+shift+down",
         "command": "cursorColumnSelectDown",
         "when": "textInputFocus"
     },
