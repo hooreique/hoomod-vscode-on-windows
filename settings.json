@@ -230,8 +230,7 @@
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "window.commandCenter": true,
     "window.newWindowDimensions": "offset",
-    "workbench.colorTheme": "Monokai Night",
-    "workbench.iconTheme": "Monokai Pro Icons",
+    "workbench.colorTheme": "Default Dark+",
     "workbench.startupEditor": "none",
     "xml.server.vmargs": "-Xmx256M"
 }
