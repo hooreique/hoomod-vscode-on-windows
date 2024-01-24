@@ -45,7 +45,7 @@
     "editor.bracketPairColorization.enabled": false,
     "editor.fontFamily": "'Cartograph CF', 'Pretendard Variable', 'JetBrains Mono', monospace",
     "editor.fontLigatures": "'ss04'",
-    "editor.fontSize": 17,
+    "editor.fontSize": 16,
     "editor.fontWeight": 400,
     "editor.guides.bracketPairs": "active",
     "editor.suggestSelection": "first",
