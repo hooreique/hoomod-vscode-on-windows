@@ -43,7 +43,7 @@
     "editor.autoClosingBrackets": "never",
     "editor.autoClosingQuotes": "never",
     "editor.bracketPairColorization.enabled": false,
-    "editor.fontFamily": "'Cartograph CF', 'JetBrains Mono', monospace",
+    "editor.fontFamily": "'Cartograph CF', 'Pretendard Variable', 'JetBrains Mono', monospace",
     "editor.fontLigatures": "'ss04'",
     "editor.fontSize": 17,
     "editor.fontWeight": 400,
