@@ -65,26 +65,10 @@
     },
     "git.autofetch": true,
     "inlineChat.showGutterIcon": true,
-    "java.configuration.runtimes": [
-        {
-            "name": "JavaSE-1.8",
-            "path": "C:\\Program Files\\Zulu\\zulu-8"
-        },
-        {
-            "name": "JavaSE-11",
-            "path": "C:\\Program Files\\Eclipse Adoptium\\jdk-11.0.17.8-hotspot"
-        },
-        {
-            "name": "JavaSE-17",
-            "path": "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.6.10-hotspot",
-            "default": true
-        }
-    ],
     "javascript.updateImportsOnFileMove.enabled": "always",
     "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
     "liveServer.settings.donotShowInfoMsg": true,
     "liveServer.settings.donotVerifyTags": true,
-    "redhat.telemetry.enabled": true,
     "security.workspace.trust.untrustedFiles": "open",
     "terminal.integrated.defaultProfile.windows": "PowerShell",
     "terminal.integrated.fontFamily": "'JetBrains Mono'",
