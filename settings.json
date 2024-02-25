@@ -49,7 +49,6 @@
     "editor.fontWeight": 400,
     "editor.guides.bracketPairs": "active",
     "editor.suggestSelection": "first",
-    "editor.wordWrap": "on",
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "files.exclude": {
