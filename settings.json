@@ -43,6 +43,7 @@
     "editor.autoClosingBrackets": "never",
     "editor.autoClosingQuotes": "never",
     "editor.bracketPairColorization.enabled": false,
+    "editor.cursorSurroundingLines": 10,
     "editor.fontFamily": "'Cartograph CF', 'Pretendard Variable', 'JetBrains Mono', monospace",
     "editor.fontLigatures": "'ss04'",
     "editor.fontSize": 16,
