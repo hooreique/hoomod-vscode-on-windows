@@ -30,9 +30,6 @@
     "[typescriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "[vue]": {
-        "editor.defaultFormatter": "Vue.volar"
-    },
     "[xml]": {
         "editor.defaultFormatter": "redhat.vscode-xml"
     },
